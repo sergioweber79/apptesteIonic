@@ -1,0 +1,58 @@
+***************  References **************
+https://ionicframework.com/docs/intro/installation/
+
+https://tableless.com.br/tutorial-ionic-meu-primeiro-app/
+
+https://cordova.apache.org/docs/en/latest/guide/platforms/android/
+
+http://ngcordova.com/
+
+https://ionicframework.com/docs/cli/
+
+https://ionicframework.com/docs/intro/deploying/
+
+https://www.vultr.com/docs/how-to-install-gradle-on-ubuntu-16-10
+
+http://codificar.com.br/blog/gerando-apk-com-ionic-framework/
+
+
+******************************************
+1) instalar o node,js + npm
+
+2) Instalar ionic 
+
+    npm install -g ionic cordova
+
+3) Criando projeto
+
+    ionic start appteste blank
+
+    templates:
+        
+        tabs : a simple 3 tab layout
+        sidemenu: a layout with a swipable menu on the side
+        blank: a bare starter with a single page
+        super: starter project with over 14 ready to use page designs
+        tutorial: a guided starter project
+
+4) Teste browser (localhost:8100)
+    ionic serve
+
+
+5) Executando no device
+    ionic cordova run android --device
+
+    ionic cordova run android
+
+    ionic build android
+
+
+    Variaveis ambiente
+
+        export ANDROID_HOME=/home/sergioweber/Android/Sdk
+
+        export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+
+        export PATH=$PATH:/opt/android-studio/gradle/gradle-3.2/bin
+
+        /home/sergioweber/Desenvolvimento/Ionic/appteste/platforms/android/build/outputs/apk/android-debug.apk
