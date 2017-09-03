@@ -22,7 +22,7 @@ http://www.w3ii.com/pt/ionic/ionic_icons.html
 
 https://stackoverflow.com/questions/37339252/how-to-call-a-simple-web-service-from-ionic
 
-//ionic 3
+//ionic 3 - http
 https://www.techiediaries.com/ionic-3-http-module-rxjs/
 
 http://blog.ionic.io/10-minutes-with-ionic-2-calling-an-api/
@@ -36,6 +36,16 @@ https://forum.ionicframework.com/t/ionic-2-card-view-click-open-new-page/74895
 
 //navcontroller
 http://mcgivery.com/understanding-ionic-2-navigation-navcontroller/
+
+//Angulat 4
+https://angular.io/tutorial/toh-pt2
+
+https://angular.io/tutorial/toh-pt3
+
+
+https://medium.com/google-developer-experts/angular-2-introduction-to-new-http-module-1278499db2a0
+
+https://stackoverflow.com/questions/37472770/catch-is-not-working-for-http-get-angular2
 
 ******************************************
 1) instalar o node,js + npm
