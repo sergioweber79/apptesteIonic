@@ -1,3 +1,7 @@
+
+http://107.170.67.212:8080/izasefaz-v1.apk
+
+
 ***************  References **************
 https://ionicframework.com/docs/intro/installation/
 
@@ -18,7 +22,6 @@ http://codificar.com.br/blog/gerando-apk-com-ionic-framework/
 
 http://www.w3ii.com/pt/ionic/ionic_icons.html
 
-107.170.67.212:8080/izasefaz.apk
 
 https://stackoverflow.com/questions/37339252/how-to-call-a-simple-web-service-from-ionic
 
@@ -46,6 +49,9 @@ https://angular.io/tutorial/toh-pt3
 https://medium.com/google-developer-experts/angular-2-introduction-to-new-http-module-1278499db2a0
 
 https://stackoverflow.com/questions/37472770/catch-is-not-working-for-http-get-angular2
+
+//forever
+https://www.npmjs.com/package/forever
 
 ******************************************
 1) instalar o node,js + npm
@@ -97,6 +103,12 @@ https://stackoverflow.com/questions/37472770/catch-is-not-working-for-http-get-a
     Cards
 
     Toolbars
+
+7) Instalacao de servico (servidor) FOREVER
+
+sudo npm install forever -g
+
+forever start server.js
 
 
     

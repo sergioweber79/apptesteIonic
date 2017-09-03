@@ -3,7 +3,6 @@ import { NavController } from 'ionic-angular';
 
 import { TabelaPage } from '../tabela/tabela';
 
-import { ConsultaVO } from '../domain/ConsultaVO';
 
 import { RemoteService } from '../providers/RemoteService';
 
