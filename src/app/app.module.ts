@@ -4,6 +4,9 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 
+import { ChartsModule } from 'ng2-charts';
+
+
 import { FormsModule }   from '@angular/forms'
 import { HttpModule } from '@angular/http';
 
@@ -16,6 +19,7 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { RedePage } from '../pages/rede/rede';
 import { TabelaPage } from '../pages/tabela/tabela';
+import { GraficoPage } from '../pages/grafico/grafico';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -28,13 +32,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     TabsPage,
     RedePage,
-    TabelaPage
+    TabelaPage,
+    GraficoPage
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
     FormsModule,
-    HttpModule
+    HttpModule,
+    ChartsModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -44,7 +50,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     TabsPage,
     RedePage,
-    TabelaPage
+    TabelaPage,
+    GraficoPage
   ],
   providers: [
     StatusBar,

@@ -53,6 +53,10 @@ https://stackoverflow.com/questions/37472770/catch-is-not-working-for-http-get-a
 //forever
 https://www.npmjs.com/package/forever
 
+//graficos
+http://valor-software.com/ng2-charts/
+
+
 ******************************************
 1) instalar o node,js + npm
 
@@ -111,4 +115,10 @@ sudo npm install forever -g
 forever start server.js
 
 
-    
+8) Graficos
+
+npm install ng2-charts --save
+
+npm install chart.js --save
+
+<script src="node_modules/chart.js/src/chart.js"></script> 

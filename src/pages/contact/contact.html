@@ -8,67 +8,48 @@
 </ion-header>
 
 <ion-content class="cards-bg social-cards">
-  <!-- 
-  <ion-card>
-        
-          <ion-item>
-          
-            <h2>Valor pago dos REFIS Homologados 2017</h2>
-            <p>Dívida Ativa</p>
-          </ion-item>
-        
-          <img src="assets/img/home/graficos.jpg">
-        
-          <ion-card-content>
-            <p>Valor pago dos parcelamentos realizados no REFIS 2017.</p>
-          </ion-card-content>
-        
-          <ion-row>
-            <ion-col>
-              <button ion-button icon-left clear small>
-                <ion-icon name="text"></ion-icon>
-                <div>1 Commentário</div>
-              </button>
-            </ion-col>
-            <ion-col>
-                <button ion-button color="primary" clear small icon-start>
-                  <ion-icon name='star'></ion-icon>
-                </button>
-           </ion-col>
+    <ion-list *ngFor="let consulta of consultas.consulta">
+        <ion-item (click)="openGrafico(consulta)">
+          <ion-avatar item-start>
+            <img src="assets/img/home/graficos36x36.jpg">
+          </ion-avatar>
+          <h2>{{consulta.nome}}</h2>
+          <h3>{{consulta.datamart}}</h3>
+          <p>{{consulta.descricao}}</p>
+        </ion-item>
+    </ion-list>
 
-          </ion-row>
-        
-    </ion-card>
-    <ion-card>
-        
-          <ion-item>
-          
-            <h2>IPTU Lancado X Arrecadado 2017</h2>
-            <p>Arrecadação</p>
-          </ion-item>
-        
-          <img src="assets/img/home/graficos.jpg">
-        
-          <ion-card-content>
-            <p>Valor lançado e pago dos IPTU 2017.</p>
-          </ion-card-content>
-        
-          <ion-row>
-            <ion-col>
-              <button ion-button icon-left clear small>
-                <ion-icon name="text"></ion-icon>
-                <div>1 Commentário</div>
-              </button>
-            </ion-col>
-            <ion-col>
-                <button ion-button color="primary" clear small icon-start>
-                  <ion-icon name='star'></ion-icon>
-                </button>
-           </ion-col>
+<!--
+  <ion-card *ngFor="let consulta of consultas.consulta">
+    <ion-row (click)="openGrafico(consulta)">
+      <ion-item>
+       
+        <h2>{{consulta.nome}}</h2>
+        <p>{{consulta.datamart}}</p>
+      </ion-item>
+    
+      <img src="assets/img/home/graficos.jpg">
+    
+      <ion-card-content>
+        <p>{{consulta.descricao}}</p>
+      </ion-card-content>
+    </ion-row>
+    <ion-row>
+        <ion-col>
+          <button ion-button icon-left clear small>
+            <ion-icon name="text"></ion-icon>
+            <div>4 Commentários</div>
+          </button>
+        </ion-col>
+        <ion-col>
+            <button ion-button color="primary" clear small icon-start>
+              <ion-icon name='star'></ion-icon>
+            </button>
+       </ion-col>
 
-          </ion-row>
-        
-    </ion-card>
+      </ion-row>
+    
+</ion-card>
+-->
 
-  -->
 </ion-content>

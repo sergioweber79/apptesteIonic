@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+     <!-- <button ion-button color="light" icon-start (click)="voltar()">
+          <ion-icon name='arrow-back'></ion-icon>
+      </button>-->
+        
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="cards-bg">
+    <div style="display: block">
+        <canvas baseChart
+                [data]="pieChartData"
+                [labels]="pieChartLabels"
+                [chartType]="pieChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"></canvas>
+      </div>
+  
+</ion-content>
