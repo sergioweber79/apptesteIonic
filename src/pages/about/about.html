@@ -1,22 +1,100 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Certidões
+        IzaSefaz - Gestão Gerencial
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <ion-list>
-    
-      <ion-item>
-        <ion-input type="text" placeholder="Inscrição"></ion-input>
-      </ion-item>
-    
-    
-    </ion-list>
-    <p>
-      <button ion-button color="secondary">Certidao Negativa</button>
-      <button ion-button color="secondary">Certidao Cadastral Imóvel</button>
-  </p>    
+<ion-content class="cards-bg social-cards">
+    <ion-card>
+        <ion-row (click)="openTabela()">
+          <ion-item>
+           
+            <h2>Arrecadação por tributo 2017</h2>
+            <p>Arrecadação</p>
+          </ion-item>
+        
+          <img src="assets/img/home/tabelas.jpg">
+        
+          <ion-card-content>
+            <p>Valor da Arrecadação por tributo no ano de 2017. Incluindo o valor original, juros, multa e correção.</p>
+          </ion-card-content>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+              <button ion-button icon-left clear small>
+                <ion-icon name="text"></ion-icon>
+                <div>4 Commentários</div>
+              </button>
+            </ion-col>
+            <ion-col>
+                <button ion-button color="primary" clear small icon-start>
+                  <ion-icon name='star'></ion-icon>
+                </button>
+           </ion-col>
+
+          </ion-row>
+        
+    </ion-card>
+    <ion-card>
+        <ion-row (click)="openTabela()">
+          <ion-item>
+           
+            <h2>Arrecadação por Bairro 2017</h2>
+            <p>Arrecadação</p>
+          </ion-item>
+        
+          <img src="assets/img/home/tabelas.jpg">
+        
+          <ion-card-content>
+            <p>Valor da Arrecadação por bairro no ano de 2017. Incluindo o valor original, juros, multa e correção.</p>
+          </ion-card-content>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+              <button ion-button icon-left clear small>
+                <ion-icon name="text"></ion-icon>
+                <div>2 Commentários</div>
+              </button>
+            </ion-col>
+            <ion-col>
+                <button ion-button color="primary" clear small icon-start>
+                  <ion-icon name='star'></ion-icon>
+                </button>
+           </ion-col>
+            
+        </ion-row>
+        
+    </ion-card>
+    <ion-card>
+        <ion-row (click)="openTabela()">
+          <ion-item>
+           
+            <h2>Autos de infração 2017</h2>
+            <p>Auditoria Fiscal</p>
+          </ion-item>
+        
+          <img src="assets/img/home/tabelas.jpg">
+        
+          <ion-card-content>
+            <p>Quantidade e Valor dos auto de infração 2017.</p>
+          </ion-card-content>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+              <button ion-button icon-left clear small>
+                <ion-icon name="text"></ion-icon>
+                <div>0 Commentários</div>
+              </button>
+            </ion-col>
+            <ion-col>
+                <button ion-button color="primary" clear small icon-start>
+                  <ion-icon name='star'></ion-icon>
+                </button>
+           </ion-col>
+
+          </ion-row>
+        
+    </ion-card>
 </ion-content>

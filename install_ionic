@@ -16,6 +16,27 @@ https://www.vultr.com/docs/how-to-install-gradle-on-ubuntu-16-10
 http://codificar.com.br/blog/gerando-apk-com-ionic-framework/
 
 
+http://www.w3ii.com/pt/ionic/ionic_icons.html
+
+107.170.67.212:8080/izasefaz.apk
+
+https://stackoverflow.com/questions/37339252/how-to-call-a-simple-web-service-from-ionic
+
+//ionic 3
+https://www.techiediaries.com/ionic-3-http-module-rxjs/
+
+http://blog.ionic.io/10-minutes-with-ionic-2-calling-an-api/
+
+https://www.postgresql.org/docs/9.3/static/functions-json.html
+
+https://stackoverflow.com/questions/13227142/postgresql-9-2-row-to-json-with-nested-joins
+
+//navegacao de pages
+https://forum.ionicframework.com/t/ionic-2-card-view-click-open-new-page/74895
+
+//navcontroller
+http://mcgivery.com/understanding-ionic-2-navigation-navcontroller/
+
 ******************************************
 1) instalar o node,js + npm
 
@@ -44,10 +65,10 @@ http://codificar.com.br/blog/gerando-apk-com-ionic-framework/
 
     ionic cordova run android
 
-    ionic build android
+    ionic cordova build android
 
 
-    Variaveis ambiente
+    Variaveis ambiente para run ou build
 
         export ANDROID_HOME=/home/sergioweber/Android/Sdk
 
@@ -56,3 +77,16 @@ http://codificar.com.br/blog/gerando-apk-com-ionic-framework/
         export PATH=$PATH:/opt/android-studio/gradle/gradle-3.2/bin
 
         /home/sergioweber/Desenvolvimento/Ionic/appteste/platforms/android/build/outputs/apk/android-debug.apk
+
+6) Componentes:
+
+    Barra de ações: Action Sheets (utilizar para eventos em componentes click, dbclick e pressionar por tempo)
+
+    Alertas: Alerts (Exibir mensgem, confimacao e perguntas, possibilita colocar inputtexts)
+
+    Cards
+
+    Toolbars
+
+
+    

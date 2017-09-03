@@ -1,11 +1,72 @@
 <ion-header>
-  <ion-navbar>
-    
-    <img src="assets/img/logopmc.png"/>
-    
-  </ion-navbar>
+
+    <ion-toolbar>
+        <ion-buttons start>
+        </ion-buttons>
+        <ion-title>IzaSefaz - Gestão Gerencial</ion-title>
+        <ion-buttons end>
+          <button ion-button icon-only (click)="openMenuConfig()">
+            <ion-icon name="settings"></ion-icon>
+          </button>
+        </ion-buttons>
+      </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content class="cards-bg social-cards">
+
+    <ion-card >
+        
+          <ion-item (click)="openTabela()">
+            <ion-avatar item-start>
+                <ion-icon name='grid'></ion-icon>
+            </ion-avatar>
+            <h2>Arrecadação por tributo 2017</h2>
+            <p>Arrecadação</p>
+          </ion-item>
+        
+          <img src="assets/img/home/tabelas.jpg" (click)="openTabela()">
+        
+          <ion-card-content (click)="openTabela()">
+            <p>Valor da Arrecadação por tributo no ano de 2017. Incluindo o valor original, juros, multa e correção.</p>
+          </ion-card-content>
+        
+          <ion-row>
+            <ion-col>
+              <button ion-button icon-left clear small>
+                <ion-icon name="text"></ion-icon>
+                <div>4 Commentários</div>
+              </button>
+            </ion-col>
+         </ion-row>
+        
+    </ion-card>
   
+    <ion-card>
+        <ion-row (click)="openTabela()">
+          <ion-item>
+              <ion-avatar item-start>
+                  <ion-icon name='pie'></ion-icon>
+              </ion-avatar>
+            <h2>Valor pagos dos REFIS Homologados 2017</h2>
+            <p>Dívida Ativa</p>
+          </ion-item>
+        
+          <img src="assets/img/home/graficos.jpg">
+        
+          <ion-card-content>
+            <p>Valor pago dos parcelamentos realizados no REFIS 2017.</p>
+          </ion-card-content>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+              <button ion-button icon-left clear small>
+                <ion-icon name="text"></ion-icon>
+                <div>1 Commentário</div>
+              </button>
+            </ion-col>
+  
+          </ion-row>
+        
+    </ion-card>
+
 </ion-content>
